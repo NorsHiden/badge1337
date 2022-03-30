@@ -1,0 +1,27 @@
+{
+  "name": "badge1337",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NorsHiden/badge1337.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NorsHiden/badge1337/issues"
+  },
+  "homepage": "https://github.com/NorsHiden/badge1337#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "canvas": "^2.9.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
