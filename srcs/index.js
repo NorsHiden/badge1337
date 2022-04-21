@@ -2,6 +2,8 @@ const express = require("express")
 const app = express()
 const { getToken, getUser } = require("./getToken")
 const genBadge = require("./genBadge")
+const PORT = process.env.PORT || 3000
+
 
 app.use(express.json())
 
@@ -22,6 +24,6 @@ app.get('/badge/:id', async (req, res) => {
 	await genBadge(req, res, user)
 })
 
-app.listen(80, () => {
+app.listen(PORT, () => {
     console.log("server is up running...")
 })
