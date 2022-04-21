@@ -7,7 +7,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node srcs/index.js"
   },
   "repository": {
     "type": "git",
