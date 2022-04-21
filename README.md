@@ -11,4 +11,4 @@ LOGIN = your 42 login.
 
 MODE = dark or light.
 
-```https://badge1337.norshiden.repl.co/badge/LOGIN?mode=MODE```
+```https://badge1337.herokuapp.com/badge/LOGIN?mode=MODE```
